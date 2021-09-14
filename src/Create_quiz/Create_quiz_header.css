@@ -1,0 +1,19 @@
+.create_quiz_header{
+    height:10%;
+    width:100%;
+    background-color: #43609C;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_btn_create_quiz_container{
+    height:fit-content;
+    width:fit-content;
+}
+.main_btn_create_quiz{
+    width:100px;
+    height:25px;
+    font-size:20px;
+    color:white;
+    background-color: green;
+}

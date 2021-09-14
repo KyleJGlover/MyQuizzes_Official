@@ -1,0 +1,275 @@
+
+.main_container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    background-color: green;
+    color:white;
+}
+
+.profile_photo{
+    width:100%;
+    height:100%;
+
+}
+
+/* CSS for the LEFT of the page */
+.left_empty_container{
+    width:25%;
+    height:100%;
+    border-style: solid;
+    border-width:0;
+    border-right-width:2px;
+    border-right-color: black;
+    display:flex;
+    justify-content: center;
+
+}
+.create_quiz_btn_link{
+    width:40%;
+    height:5%;
+    margin:40px;
+}
+.create_quiz_btn{
+    width:100%;
+    height:100%;
+    background-color: green;
+    color:white;
+}
+/* CSS for the MIDDLE of the page */
+.middle_content_container{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+.user_data_container{
+    width:100%;
+    height:fit-content;
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+.user_photo_container{
+    width:30%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: black;
+    overflow:auto;
+    position: relative;
+}
+.user_info_container{
+    width:70%;
+    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #43609C;
+    border-style: solid;
+    border-width:2px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: black;
+    overflow:auto;
+    position: relative;
+}
+.info_list{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    object-fit: contain;
+
+    justify-content: space-evenly;
+}
+.main_user_info{
+    height:auto;
+	font-variant: small-caps; 
+    text-transform: none; 
+    font-size: x-large; 
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+.main_content_container{
+    width:100%;
+    height:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.quiz_container{
+    width:100%;
+    height:fit-content;
+    display:flex;
+    background-color: #43609C;
+    flex-direction: row;
+    border-color:black;
+    border-radius: 5px;
+    border-style: solid;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.user_quizzes{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+
+}
+.quiz_content_container{
+    width:75%;
+    height:75%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.quiz_name_lbl{
+    width:100%;
+    height:50%;
+    font-size: 15px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+.num_questions_lbl{
+    width:100%;
+    height:50%;
+    font-size: 15px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+.average_score{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width:2px;
+    border-left-width: 0;
+    border-color: black;
+    overflow:auto;
+    position: relative;
+}
+.average_score_lbl{
+    width:50%;
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+    overflow:auto;
+    margin:0;
+    font-size: 13px;
+}
+
+/* CSS for the RIGHT of the page */
+.right_friend_container{
+    width:25%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: top;
+    border-style: solid;
+    border-width:0;
+    border-left-width:2px;
+    border-left-color: black;
+    overflow:hidden;
+}
+.friendlist_container{
+    height:90%;
+    width:90%;
+    background-color:green;
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+    margin: 30px;
+}
+.friendlist_container_header{
+    height:10%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.friendlist_header_div{
+    height:75%;
+    width:90%;
+    background-color:#43609C;
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.friendlist_header{
+    font-size: 20px;
+    color:white;
+    margin:0;
+}
+.friend_in_friendlist_container{
+    height:90%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.friend_profile_list{
+    height:13%;
+    width:90%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#43609C;
+    border-style: solid;
+    border-radius:5px;
+    border-width:2px;
+    border-color: black;
+    margin:10px;
+}
+.friendlist_image_container{
+    height:100%;
+    width:40%;
+
+}
+.user_image_friendlist{
+    background-color:black;
+    border-style: solid;
+    border-width:2px; 
+    border-radius:5px;
+    border-color:black;
+    height:100%;
+    width:100%;
+}
+.friendlist_user_content{
+    height:100%;
+    width: 60%;
+    padding:10px;
+    padding-left: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.friendlist_user_data{
+    font-size:8px;
+    color:white;
+}
